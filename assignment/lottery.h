@@ -16,6 +16,9 @@
 #include "general.h"
 
 #define TIP_SIZE 6
+#define 	UUID_LEN   40
+#define 	MAX_TIP_LEN   17
+#define 	MAX_LINE_LEN   (UUID_LEN + 1 + MAX_TIP_LEN + 1)
 
 bool init_lottery(const char *csv_file, char csv_separator);
 
